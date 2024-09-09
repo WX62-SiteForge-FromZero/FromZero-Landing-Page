@@ -1,0 +1,62 @@
+/* Borrar luego */
+body {
+    background-color: gray;
+}
+
+/* ------ */
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    backdrop-filter: blur(10px);
+}
+
+.nav_container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-logo img {
+    width: 300px;
+    filter: drop-shadow(0 5px 4px black);
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-top: 10px;
+}
+
+.link {
+    display: inline-block;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.link a {
+    color: #fff;
+}
+
+.nav-links li a {
+    font-size: 50px;
+
+    text-decoration: none;
+}
+
+.ingresar {
+    display: inline-block;
+    padding: 0px 20px;
+    background-color: lightgreen;
+
+}
+
+.ingresar a {
+    color: black;
+}

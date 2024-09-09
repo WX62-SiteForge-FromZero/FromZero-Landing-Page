@@ -3,16 +3,14 @@ body {
     background-color: gray;
 }
 
-header {
+/* header {
     position: fixed;
     width: 100%;
     top: 0;
     left: 0;
     z-index: 100;
-    /* background-color: rgb(92, 92, 92); */
     backdrop-filter: blur(10px);
-    /* border: solid 1px black; */
-}
+} */
 
 /* main{
     margin-top: 130px;
@@ -25,7 +23,7 @@ section {
 /*End of global*/
 
 /*Nav section*/
-.nav_container {
+/* .nav_container {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -33,7 +31,6 @@ section {
 
 .nav-logo img {
     width: 180px;
-    /* Tamaño del logo */
     height: auto;
     filter: drop-shadow(0 5px 4px black);
 }
@@ -47,17 +44,13 @@ section {
 .nav-links li {
     display: inline-block;
     margin-right: 20px;
-    /* Espaciado entre elementos de la lista */
     margin-left: 20px;
-    /* Espaciado entre elementos de la lista */
 }
 
 
 .nav-links a {
     color: #fff;
-    /* Color del texto de los enlaces */
     text-decoration: none;
-    /* font-size: 40; */
 }
 
 .nav-links li a {
@@ -66,46 +59,37 @@ section {
 
 .nav-btn {
     background-color: #0734d8;
-    /* Color de fondo del botón */
     border: none;
     color: white;
     padding: 10px 20px;
-    /* Espaciado interno */
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 24px;
-    /* Tamaño del texto */
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 10px;
-    /* Borde redondeado */
 }
 
 .nav-premium-btn {
     background-color: #49a24c;
-    /* Color de fondo del botón */
     border: none;
     color: white;
     padding: 10px 20px;
-    /* Espaciado interno */
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 24px;
-    /* Tamaño del texto */
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 10px;
-    /* Borde redondeado */
 }
 
 .nav-menu {
     display: grid;
     grid-template-columns: auto 1fr auto;
-    /* Un espacio para el logo, otro para los enlaces y otro para el botón */
     align-items: center;
-}
+} */
 
 /*End of Nav section*/
 
