@@ -1,7 +1,7 @@
 /*global*/
-body {
+/* body {
     background-color: gray;
-}
+} */
 
 /* header {
     position: fixed;
@@ -15,10 +15,10 @@ body {
 /* main{
     margin-top: 130px;
 } */
-section {
+/* section {
     height: 600px;
     margin-bottom: 60px;
-}
+} */
 
 /*End of global*/
 
@@ -95,7 +95,6 @@ section {
 
 /*Hero Section*/
 #hero-section {
-    height: 800px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -106,26 +105,19 @@ section {
 
 .hero-btn {
     background-color: #0734d8;
-    /* Color de fondo del botón */
     margin-left: auto;
-    /* Mueve el botón a la izquierda */
     border: none;
     color: white;
     padding: 5px 20px;
-    /* Espaciado interno */
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 28px;
-    /* Tamaño del texto */
     cursor: pointer;
     border-radius: 10px;
-    /* Borde redondeado */
 }
 
 .hero-content {
-
-    /* margin: 140px; */
     width: 80%;
     text-align: right;
     color: #fefeff;
@@ -133,9 +125,10 @@ section {
     h1 {
         font-size: 60px;
         margin-bottom: 60px;
+        text-transform:uppercase;
     }
 
-    p {
+    h3, p {
         font-size: 30px;
         margin-bottom: 30px;
     }
@@ -144,7 +137,7 @@ section {
 /*End of Hero section*/
 
 /*Introduction section*/
-#main-introduction {
+/* #main-introduction {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -158,7 +151,6 @@ section {
 
 .intro_up {
     width: 80%;
-    /* margin: 0 auto; */
     text-align: center;
     color: #fefeff;
 
@@ -167,24 +159,13 @@ section {
 
 .intro_middle {
     width: 80%;
-    /* margin: 0 auto; */
     display: flex;
     flex-direction: row;
-    /* Default: Horizontal layout */
     justify-content: space-around;
-    /* Horizontally center the divs */
     align-items: center;
-    /* Vertically center the divs */
     color: #fefeff;
 }
 
-/* .parte-izquierda img {
-    width: 300px;
-}
-
-.parte-derecha {
-    min-width: 40%;
-} */
 
 @media screen and (max-width: 600px) {
     .intro_middle {
@@ -200,10 +181,7 @@ section {
 
 .intro_under {
     width: 80%;
-    /* margin: 0 auto; */
     text-align: center;
-
-    /* Alinea el texto al centro */
     & h1 {
         font-size: 30px;
 
@@ -213,12 +191,12 @@ section {
     & p {
         color: #fefeff
     }
-}
+} */
 
 /*End of Introduction section*/
 
 /*Demosntration section*/
-#demonstration {
+/* #demonstration {
     height: auto;
     display: flex;
     justify-content: center;
@@ -235,16 +213,9 @@ section {
     color: #fefeff;
     display: flex;
     justify-content: center;
-    /* Center items horizontally */
     flex-wrap: wrap;
-    /* Allow items to wrap to the next line */
 }
 
-/* .first-row-demonstration img {
-    width: 70%;
-    max-width: 400px;
-    margin: 10px; 
-} */
 .image-container {
     display: flex;
     flex-direction: column;
@@ -265,19 +236,18 @@ section {
 @media screen and (max-width: 600px) {
     .first-row-demonstration img {
         width: 90%;
-        /* Reduce width for smaller screens */
     }
-}
+} */
 
 /*End of Demonstration section*/
 
 /*FAQ*/
-button {
+/* button {
     cursor: pointer;
-}
+} */
 
 /*FAQ Section*/
-#faq {
+/* #faq {
 
     height: auto;
 }
@@ -347,10 +317,10 @@ button {
     color: white;
     font-size: 20px;
     padding: 20px;
-}
+} */
 
 /*End of FAQ-aboutUs*/
-@media (max-width:1560px) {
+/* @media (max-width:1560px) {
     .box {
         display: block;
         text-align: center;
@@ -390,4 +360,23 @@ button {
         margin-right: 0;
     }
 
+} */
+
+@media screen and (max-width:570px) {
+    .hero-content{
+        h1{
+            font-size: 30px;
+        }
+        h3, p{
+            font-size: 15px;
+        }
+    }
+}
+
+@media screen and (max-width:380px) {
+    .hero-content{
+        h1{
+            font-size: 20px;
+        }
+    }
 }

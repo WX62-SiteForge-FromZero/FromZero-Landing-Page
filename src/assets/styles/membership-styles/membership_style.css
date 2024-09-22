@@ -1,4 +1,4 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,7 +6,7 @@
 main{
     background: rgb(94,93,93);
     background: linear-gradient(180deg, rgba(94,93,93,0.8403010862548144) 64%, rgb(179, 177, 177) 93%);    
-}
+} */
 .nav_container {
     background-color: rgb(160, 154, 154);
 }

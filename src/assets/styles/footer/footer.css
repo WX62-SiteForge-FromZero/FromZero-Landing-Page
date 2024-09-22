@@ -1,4 +1,4 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -33,7 +33,6 @@ a:hover{
 }
 
 .container{
-    /* max-width: 1200px; */
     margin: 0 auto;
     display: flex;
     justify-content: space-around;
@@ -89,4 +88,4 @@ a:hover{
         padding: 0;
         padding-bottom: 15px;
     }
-}
+} */
