@@ -12,7 +12,7 @@
 
 .table{
     border-collapse: collapse;
-    margin: 10px 200px;
+    margin: 10px 10px;
 }
 .empty{
     background-color: gray;
@@ -29,12 +29,16 @@ td{
 .membership-company-features{
     display: flex;
     flex-direction: column;
+
+    padding: 0 50px;
 }
 
 .membership-developer-features{
     margin-top: 30px;
     display: flex;
     flex-direction: column;
+
+    padding: 0 50px;
 }
 
 .th-table-image-free, .table-dark{
@@ -60,7 +64,10 @@ td{
             font-size: 40px;
         }
     }
-    
+    .membership-company-features,
+    .membership-developer-features{
+        padding: 0;
+    }
     .an_image{
         width: 50px;
      }
