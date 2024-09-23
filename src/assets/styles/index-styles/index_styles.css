@@ -74,7 +74,6 @@
 #projects{
     margin-top: 50px;
     text-align: center;
-    /* margin-bottom: 50px; */
     h1{
         font-size: 60px;
     }
@@ -98,6 +97,51 @@
 }
 
 /*End of Demonstration section*/
+
+/*Testimonials Section*/
+#testimonials{
+    margin-top: 50px;
+    h1{
+        font-size: 60px;
+        text-align: center;
+    }
+    p{
+        font-size: 30px;
+    }
+}
+
+.card{
+    background-color: lightgray;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    margin: 10px;
+}
+
+.card-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+    
+}
+
+.client{
+    padding: 30px;
+    width: 2600px;
+}
+.user img{
+    text-align: center;
+}
+.stars{
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+/*End of Testimonials Section*/
 
 /*FAQ*/
 
@@ -134,6 +178,10 @@
     margin-top: 20px;
     background-color: black;
     padding: 10px;
+}
+
+#a1, #answer2, #answer3 p{
+    font-size: 30px;
 }
 
 /*End of FAQ Section*/
@@ -192,12 +240,31 @@
             font-size: 30px;
         }
     }
+    #a1, #answer2, #answer3 p{
+        font-size: 20px;
+    }
     .box{
         padding: 10px 10px;
         
     }
     .box h2{
         font-size: 20px;
+    }
+
+    #testimonials{
+        h1{
+            font-size: 30px;
+        }
+        p{
+            font-size: 15px;
+        }
+    }  
+    .card img{
+        width: 30px;
+        
+    }
+    .user img{
+        width: 100px;
     }
 }
 
@@ -207,5 +274,18 @@
             font-size: 20px;
             margin: 0;
         }
+    }
+    .card{
+        flex-direction:column-reverse;
+    }
+    .client{
+        padding: 0;
+        width: 100%;
+    }
+    .client p{
+        padding: 10px;
+    }
+    .card-content{
+        flex-direction: column;
     }
 }
